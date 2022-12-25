@@ -1,5 +1,7 @@
 mod helpers;
 mod snafu;
+#[cfg(test)]
+mod tests;
 
 use snafu::Snafu;
 
