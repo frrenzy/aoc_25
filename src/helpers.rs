@@ -8,6 +8,3 @@ pub fn to_base5(n: i64) -> String {
     result.chars().rev().collect::<String>()
 }
 
-#[cfg(test)]
-mod tests {
-}
